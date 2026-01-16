@@ -5,7 +5,7 @@ RUN gradle build --no-daemon
 
 FROM adoptopenjdk/openjdk11
 
-#EXPOSE 8090
+EXPOSE 8090
 
 RUN mkdir /app
 
